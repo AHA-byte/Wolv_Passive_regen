@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option Wolverine.WolverineBiteHealingChance
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = Wolverine, translation = WolverineBiteHealingChance,
+}
+
+option Wolverine.WolverineInstantHeal
+{
+	type = boolean, default = false,
+	page = Wolverine, translation = WolverineInstantHeal,
+}
+
+option Wolverine.WolverinePassiveHealRate
+{
+	type = double, min = 0.0, max = 10.0, default = 0.025,
+	page = Wolverine, translation = WolverinePassiveHealRate,
+}
+
+option Wolverine.WolverineWoundHealRate
+{
+	type = double, min = 0.0, max = 10.0, default = 0.01,
+	page = Wolverine, translation = WolverineWoundHealRate,
+}
+
+option Wolverine.WolverineInfectionHealRate
+{
+	type = double, min = 0.0, max = 10.0, default = 0.005,
+	page = Wolverine, translation = WolverineInfectionHealRate,
+}
+
+option Wolverine.WolverineTraumaThreshold
+{
+	type = integer, min = 0, max = 100, default = 20,
+	page = Wolverine, translation = WolverineTraumaThreshold,
+}
+
+option Wolverine.WolverineTraumaDuration
+{
+	type = double, min = 0.0, max = 60.0, default = 2.0,
+	page = Wolverine, translation = WolverineTraumaDuration,
+}
