@@ -1,0 +1,13 @@
+module Wolverine
+{
+    character_trait_definition Wolverine:Wolverine
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = Wolverine:Wolverine,
+		cost = 1,
+        UIName = Wolverine,
+        UIDescription = UI_trait_WolverineDesc,
+		Texture = trait_Wolverine
+    }
+}
