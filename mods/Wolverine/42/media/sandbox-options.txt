@@ -35,7 +35,7 @@ option Wolverine.WolverineTraumaThreshold
 	type = integer, min = 0, max = 100, default = 20,
 	page = Wolverine, translation = WolverineTraumaThreshold,
 }
-test
+
 option Wolverine.WolverineTraumaDuration
 {
 	type = double, min = 0.0, max = 60.0, default = 2.0,
